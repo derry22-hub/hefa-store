@@ -41,7 +41,8 @@ body {
 .designer h3,
 .similar-product h3,
 .cart-header h3,
-.checkout-modal-success h3 {
+.checkout-modal-success h3,
+.category-product h3 {
     font-family: Lora;
     color: #192487;
     font-weight: bold;
@@ -52,7 +53,8 @@ body {
 footer p,
 .similar-product p,
 .cart-header p,
-.checkout-modal-success p {
+.checkout-modal-success p,
+.category-product p {
     font-weight: 200;
     color: #C4C4C4;
 }
@@ -179,4 +181,9 @@ footer p,
     background-color: #f6f7f8;
     border: 1px solid #eaeaea;
     color: #171717;
+}
+
+.category-product {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
